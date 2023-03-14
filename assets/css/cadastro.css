@@ -1,0 +1,152 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+/*#0A0D14
+#10141E
+#00DEFE
+#3D404B*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+}
+
+h1 {
+    color: #fff;
+}
+
+strong {
+    color: #00DEFE;
+}
+
+h1, strong {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: #fff;
+    font-weight: 900;
+    padding: 0 25px;
+    margin-bottom: 28px ;
+}
+
+p {
+    color: #AFB5C3;
+}
+
+a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+img {
+    width: 550px;
+    height: 400px;
+    margin-top: 26px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+}
+
+.content-background {
+    background: #0A0D14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    padding: 35px 25px;
+}
+
+.content-form {
+    background: #10141E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.content-form form {
+    width:  100%;
+    max-width:  680px;
+    color: #fff;
+
+    padding: 0 25px ;
+}
+
+.content-form form input[type="text"], input[type="password"] {
+    background: #3D404b;
+    border: 0;
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+    border-radius: 6px;
+    color: #fefefe;
+
+    margin-top: 8px;
+    margin-bottom: 18px;
+}
+
+.content-form form input::placeholder {
+    color: #9BA1AE;
+}
+
+.content-form form button {
+    background: #00DEFE;
+    width: 100%;
+    border: 0;
+    padding: 14PX;
+    font-family: 'Poppins', sans-serif;
+    color: #2D272A;
+    font-weight: 700;
+    box-shadow: 0px 8px 26px rgba(0, 222, 254, 0.36);
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.content-form a:nth-child(1){
+    color: #00DEFE;
+    font-weight: 400;
+}
+
+.options-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #9BA1AE;
+    line-height: 16px;
+}
+
+.options-login input[type="checkbxx"] {
+    margin-right: 8px;
+    width: 17px;
+    height: 17px;
+    border: 0;
+    border-radius: 6px;
+}
+
+small {
+    color: #9BA1AE;
+    font-size: 14px;
+    line-height: 17px;
+}
